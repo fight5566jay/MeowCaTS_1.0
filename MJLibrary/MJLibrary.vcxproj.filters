@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="資源檔\Base">
+      <UniqueIdentifier>{794eb3c8-0ab5-4544-a879-0ccde1d9d79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\MJ_Base">
+      <UniqueIdentifier>{6f5604b5-0a1a-4b60-860f-81aa4db99faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\MJ_Base\MinLackTable">
+      <UniqueIdentifier>{042035b8-db3b-4337-b1d1-e6cbbab869d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\MJ_Base\TilePartCombination">
+      <UniqueIdentifier>{9b07c7ae-e460-46ae-8556-d6ee4d9a4c21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base\ClientSocket.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Ini.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\MyFutureHandler.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\MyTimer.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SGF.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\SgfManager.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Tools.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MinLackTable\MinLackEntry.cpp">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MinLackTable\MinLackTable.cpp">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MinLackTable\TileGroup.cpp">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\TilePartCombination\TilePart.cpp">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\TilePartCombination\TilePartCombination.cpp">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\TilePartCombination\TilePartEntry.cpp">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\TilePartCombination\TilePartSet.cpp">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\TilePartCombination\TilePartTable.cpp">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\HandTile.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\HandTileDecomposer.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MeldTile.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\Move.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\PlayerTile.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\RemainTile.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\Tile.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MinLackTable\MinLackTable_old.cpp">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\DebugLogger.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MJ_Base\MJStateHashKeyCalculator.cpp">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\ConfigManager.cpp">
+      <Filter>資源檔\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\ClientSocket.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Ini.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\MyFutureHandler.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\MyTimer.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SGF.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SgfManager.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Tools.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Type.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MinLackTable\MinLackEntry.h">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MinLackTable\MinLackTable.h">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MinLackTable\TileGroup.h">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\TilePartCombination\TilePart.h">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\TilePartCombination\TilePartCombination.h">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\TilePartCombination\TilePartEntry.h">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\TilePartCombination\TilePartSet.h">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\TilePartCombination\TilePartTable.h">
+      <Filter>資源檔\MJ_Base\TilePartCombination</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\HandTile.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\HandTileDecomposer.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MahjongBaseConfig.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MeldTile.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\Move.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\PlayerTile.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\RemainTile.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\Tile.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\Wind.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MinLackTable\MinLackTable_old.h">
+      <Filter>資源檔\MJ_Base\MinLackTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\DebugLogger.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MJStateHashKeyCalculator.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ConfigManager.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\OpenAddressHashTable2.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\OpenAddressHashTable.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ReserviorOneSampler.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MJ_Base\MJBaseTypedef.h">
+      <Filter>資源檔\MJ_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\xini_file.h">
+      <Filter>資源檔\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
